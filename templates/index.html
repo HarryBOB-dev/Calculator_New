@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Equation Evaluator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Math Equation Evaluator</h1>
+    <form action="/evaluate" method="post">
+        <input type="text" name="user_input" placeholder="Enter a math equation" required>
+        <button type="submit">Evaluate</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
